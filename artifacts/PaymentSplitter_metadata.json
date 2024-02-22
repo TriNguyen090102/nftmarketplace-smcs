@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_recipient1",
+						"type": "address"
+					},
+					{
+						"internalType": "address payable",
+						"name": "_recipient2",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "recipient1",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "recipient2",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "split",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Split.sol": "PaymentSplitter"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Split.sol": {
+			"keccak256": "0xf7bba3c657fbc888cc217187c4845c060720c6f6edd81e016ab07ab1da52210e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1fda979f0dc604ae93f36cf615b843d483e389bc4f6b831dd71bef276b711932",
+				"dweb:/ipfs/QmSVB6xpxjrMuAEaERBHt9j37mWyBESbCS66m6sUsH6D11"
+			]
+		}
+	},
+	"version": 1
+}

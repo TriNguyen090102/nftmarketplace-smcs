@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Floppy_flattened.sol": "console"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Floppy_flattened.sol": {
+			"keccak256": "0xff76413cfaec361dd0afa5802c7dbd853bc7a2e2a8b180dc7305fa58c5822890",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://4bdef47679a305a174967b1d93fbc69d895fc29ae1eb3524c2414210b1b7da80",
+				"dweb:/ipfs/QmcsAu1pStTL2jqW4aCvfL1xDHg7Q5iJJdP6uR7TXtkKdQ"
+			]
+		}
+	},
+	"version": 1
+}

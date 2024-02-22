@@ -1,0 +1,142 @@
+{
+	"compiler": {
+		"version": "0.4.25+commit.59dbf8f1"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "claim",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "v_add",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "victim",
+						"type": "address"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "count",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"name": "LogFallback",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "message",
+						"type": "address"
+					}
+				],
+				"name": "Logs",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "message",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "LogsAmount",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Attack.sol": "Attacker"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Attack.sol": {
+			"keccak256": "0xef75fd1397cbe74ca7227a169443f768e5ee8342e867338edb2c3485d73c5f74",
+			"urls": [
+				"bzzr://81a49555b4c7f28645f2b8805a2031be857f4035c85456f473dd8e7ee8ad3920"
+			]
+		},
+		"D0n4t3.sol": {
+			"keccak256": "0x056c47fbd6390c7f9479a0cd7e3eced6f313f67e292f4de1dd3f6b4cecee7a3c",
+			"urls": [
+				"bzzr://4162faf34cd11bf44c002e4f123c0089a64cb1ab1c72990b1591bfed0eceb6c7"
+			]
+		}
+	},
+	"version": 1
+}
